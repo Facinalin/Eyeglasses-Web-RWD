@@ -1,0 +1,46 @@
+---
+title: 門市據點
+layout: ./app/layout.ejs
+engine: ejs
+current: map
+---
+
+<div class="container-sm flex-column">
+    <div class="map-title">
+    <h2 class="store-loc pt-80 bolden2 pb-32 font-48">門市據點</h2>
+    <div class="store-select">
+    <h3>選擇分店</h3>
+  	<div class="sec-center"> 	
+	  	<input class="dropdown" type="checkbox" id="dropdown" name="dropdown" placeholder="台北中山旗艦店"/>
+	  	<label class="for-dropdown dd-label" for="dropdown">請選擇門市<i class="uil uil-arrow-down"></i></label>
+  		<div class="section-dropdown"> 
+  			<a href="#">台北忠孝復興店<i class="uil"></i></a>
+  			<a href="#">桃園中壢店<i class="uil"></i></a>
+  			<a href="#">台中勤美店<i class="uil"></i></a>
+  		</div>
+  	</div>
+</div>
+</div>
+ 
+
+<div class="store-lower">
+ <div class="store-card">
+    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/store-1.png" alt="store-1">
+    <div class="store-card-txt">
+    <h2>台北中山旗艦店</h2>
+    <ul>
+        <li class="d-flex mb-14"><span class="material-symbols-outlined">
+            call
+            </span>電話：(02)000-1234</li>
+        <li class="d-flex mb-14"><span class="material-symbols-outlined">
+            schedule
+            </span>營業時間：10:00-21:00</li>
+        <li class="d-flex"><span class="material-symbols-outlined">
+            location_on
+            </span>地址：台北市中山區南京東路25巷2-1號</li>
+    </ul>
+</div>
+    </div>
+    <img class="map-api" src="https://i.imgur.com/wHM84Pu.png" alt="map-api">
+</div>
+</div>
